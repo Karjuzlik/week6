@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: bisque;
+        }
+
+        header {
+
+            display: flex;
+            width: 1750;
+
+
+        }
+
+        .topnav {
+
+
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            width: 80%;
+
+        }
+
+
+        main {
+            display: grid;
+
+            gap: 10px;
+        }
+
+
+
+        .maintext {
+
+            grid-row: 2 / 3;
+            grid-column: 1 / 2;
+            width: 400px;
+        }
+
+        H1 {
+            color: rgb(168, 100, 161);
+            font-family: 'Jost', Times, serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 55px;
+            margin: 20px;
+
+        }
+
+        h2 {
+            color: rgb(138, 131, 137);
+            font-family: 'Jost', Times, serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 15px;
+            margin: 20px;
+
+        }
+
+        .sidebar {
+
+            grid-row: 1 / 4;
+            grid-column: 2 / 4;
+            width: 700px;
+        }
+
+        footer {
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            height: 200px;
+
+        }
+
+        .search {
+            display: flex;
+            padding: 20px;
+            justify-content: center;
+        }
+
+        .searchform {
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid white;
+            width: 800px;
+        }
+
+
+        .gridnav {
+
+            display: grid;
+
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 20px 100px;
+            justify-items: center;
+
+
+        }
+
+        .btnmngr {
+            display: grid;
+
+
+        }
+
+        .btnmngrpic {
+
+
+            width: 100px;
+
+        }
+
+        img {
+            display: block;
+            margin: 20px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <object class="logo" type="image/svg" data="picture.svg">
+            <img src="/assets/Union.png" alt="logo">
+        </object>
+        <nav class="topnav">
+
+            <a class="topnmn" href='/bloher.html'>Home</a>|
+            <a class="topmn" href='/recipes'>Recipes</a> |
+            <a class="topmn" href='/About'>About me</a> |
+            <a class="topmn" href='/Blog'>Blog</a>
+        </nav>
+    </header>
+    <main>
+        <div class="maintext">
+            <H1>Delicious Dishes for Food Lovers
+            </H1>
+            <h2>A food blog with hundreds of quick and easy dinner recipes.
+                Classics done right, incredible one pot
+                recipes. Asian take out at home and holiday feasting!</h2>
+        </div>
+
+
+        <aside class="sidebar"> <img src="/assets/Group 2.png" alt="foodphoto"></aside>
+    </main>
+    <footer>
+        <form class="search">
+            <input class="searchform" type="text" placeholder="Search">
+
+
+        </form>
+
+
+        <nav class="gridnav">
+            <a class="btnmngr" href='/bloher.html'>Breakfast</a>
+            <a class="btnmngr" href='/recipes'>30 minuts dishes</a>
+            <a class="btnmngr" href='/About'>Vegetarian</a>
+            <a class="btnmngr" href='/Blog'>Soup</a>
+            <a class="btnmngr" href='/Blog'>Desserts</a>
+
+
+            <img class "btnmngrpic" src="/assets/toast-egg-bacon-tomatoes-microgreens-salad.jpg" alt="foodphoto">
+            <img class "btnmngrpic" src="/assets/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg"
+                alt="foodphoto">
+            <img class "btnmngrpic" src="/assets/mixed-of-dried-fruits-apricots-grapes-plums-on-light.jpg"
+                alt="foodphoto">
+            <img class "btnmngrpic"
+                src="/assets/roasted-pumpkin-and-carrot-soup-with-cream-seeds-and-fresh-green-in-ceramic-bowl-top-view.jpg"
+                alt="foodphoto">
+            <img class "btnmngrpic" src="/assets/assortment-of-pieces-of-cake.jpg" alt="foodphoto">
+        </nav>
+
+
+
+    </footer>
+    </div>
+</body>
+
+</html>
